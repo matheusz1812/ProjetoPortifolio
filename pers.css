@@ -7,11 +7,13 @@ body, ul{
 a{
     color:white;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
 }
 
 a:hover{
-    background: #fff
+    background: rgba(0, 0, 0, 0.411);
+    
 }
 
 #logo{
@@ -78,7 +80,7 @@ a:hover{
     display: none;
 }
 
-@media  (max-width: 1000px){
+@media  (max-width: 10000px){
     #btnMenu{
         display: flex;
         padding: .5rem 1rem;
@@ -103,7 +105,7 @@ a:hover{
     #nav.active #menu {
         height: calc(100vh - 70px);
         visibility: visible;
-        overflow-y: auto;
+        overflow-y: hidden;
     }
     #menu a {
         padding: 1rem 0;
